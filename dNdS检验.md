@@ -176,45 +176,45 @@ done
 
 输入的基因树如下，注意15.125 _100897分支是需要检验正选择的，标为#1：
 
-![img](images\clip_image001.jpg)
+![img](images/clip_image001.jpg)
 
  输入的 CDS比对如下（已经过过滤和格式转换）：
 
-![img](images\clip_image002.gif)
+![img](images/clip_image002.gif)
 
  Null model控制文件设置
 
-![img](images\clip_image003.jpg) 
+![img](images/clip_image003.jpg) 
 
 Alternative model控制文件设置
 
-![img](images\clip_image004.jpg)
+![img](images/clip_image004.jpg)
 
 Null model运行后，在主输出文件中可以看到模型的似然值(lnL)和参数个数(np)
 
-![img](images\clip_image005.jpg)
+![img](images/clip_image005.jpg)
 
 同时也给出了四类位点(见PAML Manual Table 3 [4](#参考文献))的比例和ω值
 
-![img](images\clip_image006.jpg)
+![img](images/clip_image006.jpg)
 
  相应的, alternative model的主输出文件中也有：
 
-![img](images\clip_image007.jpg)
+![img](images/clip_image007.jpg)
 
-![img](images\clip_image008.jpg)
+![img](images/clip_image008.jpg)
 
 Alternative model的显著性可采用似然比检验: p-value = 1 - qchisq(2ΔlnL, Δnp)。本例p-value = 7.79e-12，支持存在正选择位点。
 
 可以进一步在alternative model主输出文件中找到后验概率高的正选择位点（*为显著）。注意这些位点是针对氨基酸序列，并且在cleandata = 1时去除了原序列中的不确定位点
 
-![img](images\clip_image009.jpg)
+![img](images/clip_image009.jpg)
 
  
 
 为了直观地显示这些位点，可以用MEGA打开相应 CDS比对的fasta文件，并翻译为蛋白序列。下图黑框标出的即为正选择概率较高的93-100位点。这些位点在背景中都极为保守，但在前景（15.125 _100897序列）中发生了替代。这是对branch-site model结果的直观解释。
 
-![image](images\clip_image010.png)
+![img](images/clip_image010.png)
 
 **分支正选择检验与分支快速进化检验比较**
 
@@ -227,9 +227,9 @@ Alternative model的显著性可采用似然比检验: p-value = 1 - qchisq(2Δl
 
 2. Yang Z. PAML 4: phylogenetic analysis by maximum likelihood. Mol Biol Evol. 2007 Aug;24(8):1586-91.
 
-3. ![img](images\clip_image011.gif)
+3. ![img](images/clip_image011.gif)
 
-4. ![img](images\clip_image012.gif)
+4. ![img](images/clip_image012.gif)
 
    
 
