@@ -176,7 +176,7 @@ done
 
 输入的基因树如下，注意15.125 _100897分支是需要检验正选择的，标为#1：
 
-![img](images\clip_image001.jpg)
+![img](https://github.com/zhenwang100/protocal/blob/main/images/clip_image001.jpg)
 
  输入的 CDS比对如下（已经过过滤和格式转换）：
 
