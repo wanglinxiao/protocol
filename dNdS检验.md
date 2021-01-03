@@ -182,11 +182,11 @@ done
 
 ![img](images/clip_image002.gif)
 
- Null model控制文件设置
+ Null model控制文件设置：
 
 ![img](images/clip_image003.jpg) 
 
-Alternative model控制文件设置
+Alternative model控制文件设置：
 
 ![img](images/clip_image004.jpg)
 
