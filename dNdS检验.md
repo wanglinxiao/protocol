@@ -122,7 +122,7 @@ PAML的嵌套模型都可以用似然比卡方检验。在PAML主输出文件中
 | 作者   | 脚本       | 语言 | 目的                                                     | 输入 （格式）                                     | 输出（格式）        |
 | ---------- | -------------- | ---- | ------------------------------------------------------------ | ------------------------------------------------- | ------------------- |
 | Zhen  Wang | [fasta2phy.pl](scripts/fasta2phy.pl) | perl | 将fasta格式的CDS比对转化为phylip格式（用Bioperl的AlignIO实现） | CDS多重比对(fasta)                                | CDS多重比对(phylip) |
-| Zhen Wang  | [prepare_codeml.pl](scripts/prepare_codeml.pl) | perl | 根据写好的codeml控制文件模板，批量产生控制文件               | 控制文件模板(ctl)，所有CDS比对文件，所有CDS进化树 | 所有控制文件        |
+| Zhen Wang  | [prepare_ctl.pl](scripts/prepare_ctl.pl) | perl | 根据写好的codeml控制文件模板，批量产生控制文件               | 控制文件模板(ctl)，所有CDS比对文件，所有CDS进化树 | 所有控制文件        |
 
 ### 脚本参数
 
@@ -130,7 +130,7 @@ PAML的嵌套模型都可以用似然比卡方检验。在PAML主输出文件中
 | -------------- | ------------ | ------------------------------------------------------------ |
 | fasta2phy.pl | flag_SI(1)   | BioPerl的phylip默认是interleaved格式，PAML要求在第一行加上I标记 |
 |                | idlength(30) | phylip默认序列名较短，可以设置长以防止名称被截短             |
-| prepare_codeml.pl | --tmp_dir    | 模板文件(.ctl)所在文件夹。模板文件中需设置分析模型           |
+| prepare_ctl.pl | --tmp_dir    | 模板文件(.ctl)所在文件夹。模板文件中需设置分析模型           |
 |                | --aln_dir    | 所有CDS (.phy-gb格式)所在文件夹。文件名将被写入控制文件的seqfile |
 |                | --tree_dir   | 所有CDS进化树所在文件夹。文件名将被写入控制文件的treefile    |
 |                | --ctl_dir    | 输出控制文件所在文件夹                                       |
