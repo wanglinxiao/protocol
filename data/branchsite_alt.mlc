@@ -1,4 +1,4 @@
-CODONML (in paml version 4.9, March 2015)  /picb/bigdata/project/tianshu/5_comprativeGenomics_dnds/sig_orth_aln/16406.phy-gb
+CODONML (in paml version 4.9, March 2015) 
 Model: several dN/dS ratios for branches for branches, 
 Codon frequency model: F3x4
 Site-class models:  PositiveSelection
