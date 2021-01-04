@@ -174,7 +174,7 @@ done
 
 ### Branch-site model实例分析
 
-输入的基因树如下，注意15.125 _100897分支是需要检验正选择的，标为#1：
+输入的基因树文件[tree.nwk](data/tree.nwk)，注意15.125 _100897分支是需要检验正选择的，标为#1：
 
 ![img](images/clip_image001.jpg)
 
