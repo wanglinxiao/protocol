@@ -1,6 +1,6 @@
-seqfile = /picb/bigdata/project/tianshu/5_comprativeGenomics_dnds/sig_orth_aln/16406.phy-gb
-treefile = /picb/bigdata/project/tianshu/5_comprativeGenomics_dnds/sig_orth_tree/16406.nwk
-outfile = /picb/bigdata/project/tianshu/5_comprativeGenomics_dnds/mlc/batch_2/16406.branchsite_alt.mlc
+seqfile = alignment.phy-gb
+treefile = tree.nwk
+outfile = branchsite_alt.mlc
 
         noisy = 0  * 0,1,2,3,9: how much rubbish on the screen
       verbose = 0  * 0: concise; 1: detailed, 2: too much

@@ -182,9 +182,9 @@ done
 
 * Null model控制文件[branchsite_nul.ctl](data/branchsite_nul.ctl)
 
-* Alternative model控制文件[branchsite_alt.ctl](branchsite_alt.ctl)
+* Alternative model控制文件[branchsite_alt.ctl](data/branchsite_alt.ctl)
 
-Null model运行后，在主输出文件[branchsite_nul.mlc](branchsite_nul.mlc)中可以看到模型的似然值(lnL)和参数个数(np)
+Null model运行后，在主输出文件[branchsite_nul.mlc](data/branchsite_nul.mlc)中可以看到模型的似然值(lnL)和参数个数(np)
 
 ![img](images/branchsite_nul_1.jpg)
 
@@ -192,7 +192,7 @@ Null model运行后，在主输出文件[branchsite_nul.mlc](branchsite_nul.mlc)
 
 ![img](images/branchsite_nul_2.jpg)
 
- 相应的, alternative model的主输出文件[branchsite_alt.mlc](branchsite_alt.mlc)中也有：
+ 相应的, alternative model的主输出文件[branchsite_alt.mlc](data/branchsite_alt.mlc)中也有：
 
 ![img](images/branchsite_alt_1.jpg)
 
